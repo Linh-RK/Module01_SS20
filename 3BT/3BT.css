@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: centers;
+  margin: 0 30px;
+}
+/* ======================================== */
+.task2 {
+  position: relative;
+}
+.box {
+  display: flex;
+  position: relative;
+  width: 50%;
+  height: 300px;
+  background-color: aliceblue;
+}
+.box i {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: black;
+}
+
+/* ======================3================== */
+
+.sqr-line {
+  display: flex;
+  gap: 50px;
+}
+.sqr {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.sqr1 {
+  background-color: #f0e68c;
+}
+.sqr2 {
+  background-color: pink;
+}
+.sqr3 {
+  background-color: #c0c0c0;
+}
+/* ====================4==================== */
+.task4 {
+  width: 70%;
+  padding: 30px 30px;
+  border: 1px solid gray;
+  text-align: center;
+}
+h1 {
+  margin: 20px 0;
+}
+.hover {
+  position: relative;
+}
+.tooltip-text {
+  color: white;
+  background-color: gray;
+  position: absolute;
+  top: -35px;
+  left: 35%;
+  width: 180px;
+  border-radius: 5px;
+}
+.hover-text {
+  text-decoration: underline dashed;
+}
+/* ====================5==================== */
+.demo-toggle {
+  color: white;
+  background-color: black;
+}
+p {
+  margin-bottom: 20px;
+}
